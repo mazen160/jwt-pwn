@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # jwt-mimicker.py
 # Returns the decoded value of a JWT.
 import json

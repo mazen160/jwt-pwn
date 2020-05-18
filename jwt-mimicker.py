@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # jwt-mimicker.py
 # Generate an unsigned jwt based on a valid token.
 # If it's accepted, then the application should be vulnerable to replay-attacks.

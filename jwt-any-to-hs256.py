@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # jwt-any-to-hs256.py
 # Generate a signed JWT by HS256 algorithm based on a different JWT.
 # If it's accepted, then the application should be vulnerable to replay-attacks.

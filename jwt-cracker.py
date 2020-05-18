@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # jwt-cracker.py
 # Crack JWT using brute-force via a wordlist.
 
