@@ -80,8 +80,8 @@ def main():
                         action="store")
     args = parser.parse_args()
 
-    wordlist = open(args.wordlist_file, "r").readlines()
-    wordlist = [_.replace("\r", "").replace("\n", "") for _ in wordlist]
+    wordlist = open(args.wordlist_file, "rb").readlines()
+    wordlist = [_.decode("utf-8", "ignore").replace("\r", "").replace("\n", "") for _ in wordlist]
     wordlist_Q = queue.Queue()
     wordlist_grouped = split_list(wordlist,
                                   wanted_parts=int(args.threads_number))
