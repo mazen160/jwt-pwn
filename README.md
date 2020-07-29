@@ -24,7 +24,9 @@ $python3 jwt-cracker.py -jwt "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJwd
 JWT password/secret cracker that is much faster.
 
 ```
-$ cd go-jwt-cracker && go build # Building the binary.
+$ cd go-jwt-cracker
+$ go get
+$ go build # Building the binary.
 
 $ ./go-jwt-cracker -wordlist /pentest/wordlist.txt -token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3QiOiJwd24ifQ.4pOAm1W4SHUoOgSrc8D-J1YqLEv9ypAApz27nfYP5L4"
 [+] Key Found: 1234
